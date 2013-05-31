@@ -41,3 +41,9 @@ void EntitySystem::addComponent(Component* component)
 {
 	componentManager.addComponent(component);
 }
+
+int EntitySystem::getNewEntityId()
+{
+	currentEntityID++;
+	return currentEntityID;
+}

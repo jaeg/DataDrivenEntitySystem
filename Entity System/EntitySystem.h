@@ -12,6 +12,7 @@ public:
 	void cleanup();
 	void addSystem(System* system);
 	void addComponent(Component*);
+	int getNewEntityId();
 private:
 	int currentEntityID;
 	ComponentManager componentManager;
