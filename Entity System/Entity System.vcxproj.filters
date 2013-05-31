@@ -21,10 +21,10 @@
     <ClInclude Include="System.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Entity.h">
+    <ClInclude Include="ComponentManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ComponentManager.h">
+    <ClInclude Include="EntitySystem.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -35,13 +35,13 @@
     <ClCompile Include="System.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ComponentManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySystem.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{414F3111-E855-47B2-B659-ED346F8FE71E}</ProjectGuid>
     <RootNamespace>EntitySystem</RootNamespace>
+    <ProjectName>EntitySystem</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -66,13 +67,13 @@
   <ItemGroup>
     <ClInclude Include="Component.h" />
     <ClInclude Include="ComponentManager.h" />
-    <ClInclude Include="Entity.h" />
+    <ClInclude Include="EntitySystem.h" />
     <ClInclude Include="System.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Component.cpp" />
     <ClCompile Include="ComponentManager.cpp" />
-    <ClCompile Include="Entity.cpp" />
+    <ClCompile Include="EntitySystem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="System.cpp" />
   </ItemGroup>
